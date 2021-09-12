@@ -1,0 +1,31 @@
+/* header */
+$colorhovermenu: orange;
+$padding: 5px;
+
+header nav .flexMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: right;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.flexMenu li a {
+  text-decoration: none;
+  color: black;
+  padding: 5*$padding;
+}
+
+.flexMenu li a:hover {
+  background-color: white;
+  color: $colorhovermenu;
+}
+
+
+.imageMain{
+    width: 30%;
+    justify-content: center;
+    float: none;    
+}
